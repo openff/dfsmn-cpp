@@ -1,0 +1,70 @@
+# CMake build directories
+build/
+cmake-build-debug/
+cmake-build-release/
+cmake-build-*/
+
+# Build artifacts
+*.o
+*.a
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.out
+
+# CMake files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.clangd
+compile_commands.json
+
+# Generated files
+*.pb.cc
+*.pb.h
+*.proto.go
+
+# ONNX/Model files (optional - uncomment if needed)
+# *.onnx
+# *.pb
+# *.pbtxt
+
+# Temporary files
+*.tmp
+*.log
+.cache/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build-py/
+
+# Test results
+test-results/
+*.xml
+
+# Dependencies (if not using git submodules)
+# third_party/* (uncomment if third_party should be gitignored)
+
+# Environment files
+.env
+.env.local
+*.env
+
+# Object files compiled from source
+*.o.d
+*.so.d

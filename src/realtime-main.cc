@@ -12,6 +12,8 @@
 #include <vector>
 #include <deque>
 #include <csignal>
+#include <unistd.h>
+#include <sys/select.h>
 
 #include "portaudio.h"
 #include "stream-denoiser.h"

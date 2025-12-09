@@ -7,6 +7,8 @@ cmake-build-*/
 # Build artifacts
 *.o
 *.a
+# Exception: Allow ONNX Runtime static library (required for compilation)
+!third_party/onnxruntime/lib/libonnxruntime.a
 *.so
 *.so.*
 *.dylib
@@ -59,6 +61,8 @@ test-results/
 
 # Dependencies (if not using git submodules)
 # third_party/* (uncomment if third_party should be gitignored)
+# Exception: Allow PortAudio source code (required for compilation)
+!third_party/stream-modle/
 
 # Environment files
 .env
